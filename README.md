@@ -10,7 +10,7 @@
 ```
 git clone https://github.com/Omarrasheed/Eric-Movies.git
 cd Movies
-sudo gem install cocoapods // can skip if already installed
+sudo gem install cocoapods
 pod install
 ```
 
