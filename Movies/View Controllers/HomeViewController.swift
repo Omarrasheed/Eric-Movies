@@ -148,6 +148,17 @@ class HomeViewController: UIViewController {
         view.addSubview(allMoviesImageView)
     }
     
+    func setupTapGestureRecognizer() {
+        let tapGestureRecognizer = UITapGestureRecognizer()
+        tapGestureRecognizer.addTarget(self, action: #selector(hideKeyboard))
+        
+        view.addGestureRecognizer(tapGestureRecognizer)
+    }
+    
+    @objc func hideKeyboard() {
+        self.resignFirstResponder()
+    }
+    
     @objc func selectMovie() {
         let movieDetailVC = MovieDetailViewController()
         navigationController?.pushViewController(movieDetailVC, animated: true)
