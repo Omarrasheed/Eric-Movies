@@ -18,4 +18,5 @@ pod install
 
 ## Build & Run
 
-1. Click the Play icon in the top-left of the toolbar. By default, this will load the app in the simulator.
+1. In the top left, click and select the third icon from the left and select IPhone X
+2. Click the Play icon in the top-left of the toolbar. By default, this will load the app in the simulator.
